@@ -1,5 +1,5 @@
 # Chatbot Logs "Sentiment" Analysis
-This repository showcases an analytical approach to examining chatbot interaction logs. It serves as a demonstration of the methods and insights derived from the log data of a chatbot project. The data used here is fake and can be generated using the [generate-logs.py](./generate-logs.py) script.
+In this repository, I showcase the analytical techniques I've used to examine chatbot log data. It's a demonstration of how I extract and interpret interactions from a chatbot I've been working on. The data used here is fake and can be generated using the [generate-logs.py](./generate-logs.py) script.
 
 ## Parsing and Metadata
 In the [parsing notebook](./parsing.ipynb), I handle the initial processing of the raw log files. My focus here is on key metrics such as average request counts, question frequencies, and insights into users' geographic locations and device usage. It also generates the `output_questions` file to be used in further analysis.
